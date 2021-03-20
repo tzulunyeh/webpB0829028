@@ -1,22 +1,28 @@
 .box1 {
-    background-color: #fff7f7;
+    background-color: #EDAE49;
     width: 100%;
+    margin-bottom: -38px;
 }
 
 h1 {
-    color: #375e97;
+    color: #393D3F;
     font-size: 4em;
     font-family: monospace;
-    margin-bottom: 0px;
+    text-align: center;
 }
 
 .box2 {
-    background-color: #e8f6fc;
     width: 100%;
+    margin-bottom: -30px;
+}
+.webtime{
+    color: black;
+    text-align: right;
 }
 
 .box3 {
-    background-color: #f9fcfb width: 100%;
+    display: inline-block;
+    padding-top: -100px;
 }
 
 p {
@@ -29,12 +35,13 @@ a:link {
 }
 
 img {
-    display: block;
+    
     width: 100%;
     height: 100%;
 }
 
-.card {
+.photo {
     width: 189px;
     height: 252px;
+    display: inline-block;
 }
