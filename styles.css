@@ -9,7 +9,7 @@
     text-align: right;
     font-family: 'Noto Serif TC', serif;
     font-size: 1em;
-    margin-bottom: -60px;
+    margin-bottom: -50px;
 }
 
 .about {
@@ -28,4 +28,50 @@
     text-align: center;
     font-family: 'Noto Serif TC', serif;
     font-size: 1em;
+}
+
+.myphoto {
+    width: 200px;
+    height: 280px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+@media(min-width: 450px) {
+    ul li {
+        display: inline-block;
+    }
+    .myphoto {
+        width: 200px;
+        height: 280px;
+        padding-left: 100px;
+        position: relative;
+        top: -50px;
+    }
+}
+
+@media(max-width: 450px) {
+    .webtime {
+        margin-bottom: -30px;
+    }
+    .myphoto {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media(max-width: 500px) {
+    .cp {
+        text-align: center;
+        font-family: 'Noto Serif TC', serif;
+        font-size: 0.8em;
+    }
+    .personal {
+        text-align: center;
+        font-family: 'Cormorant Unicase', serif;
+        font-size: 1.2em;
+    }
 }
